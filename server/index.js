@@ -18,7 +18,7 @@ app.use('/api/v1/dalle', dalleRoutes)
 
 
 app.get("/", async (req, res) => {
-  res.send("hello from backend");
+  res.send("hello from backend ");
 });
 
 
